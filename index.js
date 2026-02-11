@@ -1,17 +1,10 @@
-
-var loader = document.getElementById("preloader");
-
-window.addEventListener("load", function() {
-  loader.style.display = "none"
-})
-
 $(".navbar .nav-link").on("click", function(){
   $(".navbar").find(".active").removeClass("active");
   $(this).addClass("active");
 });
 
 new Typewriter('#typewriter', {
-    strings: ['UI/UX Designer', 'Full-Stack Developer'],
+    strings: ['Data Scienentist', '.Net Developer'],
     autoStart: true,
     loop: true,
     delay: 75,

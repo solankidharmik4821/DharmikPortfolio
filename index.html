@@ -148,76 +148,213 @@
                     development skills.
                 </p>
             </div>
-            <div class="row ">
-                <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="5000">
+            <div class="row g-5 mt-5">
+                <ul class="nav nav-tabs justify-content-center" id="skillTabs" role="tablist">
 
-                    <div class="row ps-3 pe-3">
-                        <div class="col-6 mt-5 d-flex justify-content-center align-items-center flex-column">
-                            <div class="pie"
-                                data-pie='{ "strokeBottom": 5, "percent": 70, "colorSlice": "#bbae8f", "colorCircle": "", "round": true, "size":100 }'>
-                            </div>
-                            <label class="fw-bold mt-n5" style="color: #bbae8f;">Angular</label>
-                        </div>
-                        <div class="col-6 mt-5 d-flex justify-content-center align-items-center flex-column">
-                            <div class="pie"
-                                data-pie='{ "strokeBottom": 5, "percent": 80, "colorSlice": "#bbae8f", "colorCircle": "", "round": true, "size":100 }'>
-                            </div>
-                            <label class="fw-bold mt-n5" style="color: #bbae8f;">Asp .Net</label>
-                        </div>
-                        <div class="col-6 mt-5 d-flex justify-content-center align-items-center flex-column">
-                            <div class="pie"
-                                data-pie='{ "strokeBottom": 5, "percent": 85, "colorSlice": "#bbae8f", "colorCircle": "", "round": true,"size":100 }'>
-                            </div>
-                            <label class="fw-bold mt-n5" style="color: #bbae8f;">SQL</label>
-                        </div>
-                        <div class="col-6 mt-5 d-flex justify-content-center align-items-center flex-column">
-                            <div class="pie"
-                                data-pie='{ "strokeBottom": 5, "percent": 75, "colorSlice": "#bbae8f", "colorCircle": "#", "round": true,"size":100 }'>
-                            </div>
-                            <label class="fw-bold mt-n5" style="color: #bbae8f;">C#</label>
-                        </div>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend"
+                            type="button">
+                            Backend Development
+                        </button>
+                    </li>
 
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend"
+                            type="button">
+                            Frontend Development
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="database-tab" data-bs-toggle="tab" data-bs-target="#database"
+                            type="button">
+                            Database Technologies
+                        </button>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tool-tab" data-bs-toggle="tab" data-bs-target="#tools"
+                            type="button">
+                            Tools & Technologies
+                        </button>
+                    </li>
+
+                </ul>
+
+                <div class="tab-content mt-4">
+
+                    <div class="tab-pane fade show active" id="frontend">
+                        <div class="row ps-3 pe-3 g-4">
+                            <div class="col-12 d-flex justify-content-center align-items-center">
+                                <h5 class="text-white">Frontend Development </h5>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-lg-3 col-md-4 col-sm-6 col-6
+ d-flex justify-content-center align-items-center flex-column">
+                                <div class="pie"
+                                    data-pie='{ "strokeBottom": 5, "percent": 70, "colorSlice": "#bbae8f", "colorCircle": "", "round": true, "size":100 }'>
+                                </div>
+                                <label class="fw-bold mt-n5" style="color: #bbae8f;">Angular</label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-lg-3 col-md-4 col-sm-6 col-6
+ d-flex justify-content-center align-items-center flex-column">
+                                <div class="pie"
+                                    data-pie='{ "strokeBottom": 5, "percent": 80, "colorSlice": "#bbae8f", "colorCircle": "", "round": true, "size":100 }'>
+                                </div>
+                                <label class="fw-bold mt-n5" style="color: #bbae8f;">HTML5</label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-lg-3 col-md-4 col-sm-6 col-6
+ d-flex justify-content-center align-items-center flex-column">
+                                <div class="pie"
+                                    data-pie='{ "strokeBottom": 5, "percent": 85, "colorSlice": "#bbae8f", "colorCircle": "", "round": true,"size":100 }'>
+                                </div>
+                                <label class="fw-bold mt-n5" style="color: #bbae8f;">CSS3</label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-lg-3 col-md-4 col-sm-6 col-6
+ d-flex justify-content-center align-items-center flex-column">
+                                <div class="pie"
+                                    data-pie='{ "strokeBottom": 5, "percent": 75, "colorSlice": "#bbae8f", "colorCircle": "", "round": true,"size":100 }'>
+                                </div>
+                                <label class="fw-bold mt-n5" style="color: #bbae8f;">JavaScript</label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-lg-3 col-md-4 col-sm-6 col-6
+ d-flex justify-content-center align-items-center flex-column">
+                                <div class="pie"
+                                    data-pie='{ "strokeBottom": 5, "percent": 75, "colorSlice": "#bbae8f", "colorCircle": "", "round": true,"size":100 }'>
+                                </div>
+                                <label class="fw-bold mt-n5" style="color: #bbae8f;">JQuery</label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-lg-3 col-md-4 col-sm-6 col-6
+ d-flex justify-content-center align-items-center flex-column">
+                                <div class="pie"
+                                    data-pie='{ "strokeBottom": 5, "percent": 75, "colorSlice": "#bbae8f", "colorCircle": "", "round": true,"size":100 }'>
+                                </div>
+                                <label class="fw-bold mt-n5" style="color: #bbae8f;">Bootstrap</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="backend">
+                        <div class="row col-12 ps-3 pe-3 g-4 ">
+                            <div class="col-12 d-flex justify-content-center align-items-center">
+                                <h5 class="text-white">Backend Development </h5>
+                            </div>
+                            <div class="col-12">
+                                <label class="fw-bold" style="color: #bbae8f;">ASP.NET Core</label>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100">85%</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="fw-bold" style="color: #bbae8f;">ASP.NET MVC</label>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100">75%</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="fw-bold" style="color: #bbae8f;">Entity Framework</label>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                        aria-valuemin="0" aria-valuemax="100">80%</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="fw-bold" style="color: #bbae8f;">LINQ</label>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                        aria-valuemin="0" aria-valuemax="100">70%</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="fw-bold" style="color: #bbae8f;">C# Programming</label>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                        aria-valuemin="0" aria-valuemax="100">70%</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="fw-bold" style="color: #bbae8f;">Authentication & Authorization</label>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                        aria-valuemin="0" aria-valuemax="100">70%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="database">
+                        <div class="row col-12 ps-3 pe-3 g-4 ">
+                            <div class="col-12 d-flex justify-content-center align-items-center">
+                                <h5 class="text-white">Database Technologies</h5>
+                            </div>
+                            <div class="col-12">
+                                <label class="fw-bold" style="color: #bbae8f;">Microsoft SQL Server</label>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100">85%</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="fw-bold" style="color: #bbae8f;">Database Design & Optimization</label>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100">75%</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="fw-bold" style="color: #bbae8f;">Stored Procedures</label>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                        aria-valuemin="0" aria-valuemax="100">80%</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="fw-bold" style="color: #bbae8f;">Query Performance Optimization</label>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                        aria-valuemin="0" aria-valuemax="100">70%</div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
 
-                </div>
-                <div class="col-lg-6 mt-lg-0 mt-5 d-flex align-items-center" data-aos="fade-left"
-                    data-aos-easing="ease-in-sine" data-aos-duration="5000">
-
-                    <div class="row col-12 ps-3 pe-3">
-
-
-                        <div class="col-12 mt-4">
-                            <label class="fw-bold" style="color: #bbae8f;">HTML5</label>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                                    aria-valuemin="0" aria-valuemax="100">85%</div>
+                    <div class="tab-pane fade" id="tools">
+                        <div class="row ps-3 pe-3 g-4">
+                            <div class="col-12 d-flex justify-content-center align-items-center">
+                                <h5 class="text-white">Tools & Technologies </h5>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6
+                             d-flex justify-content-center align-items-center flex-column">
+                                <div class="pie"
+                                    data-pie='{ "strokeBottom": 5, "percent": 70, "colorSlice": "#bbae8f", "colorCircle": "", "round": true, "size":100 }'>
+                                </div>
+                                <label class="fw-bold mt-n5" style="color: #bbae8f;">Visual Studio</label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6
+                             d-flex justify-content-center align-items-center flex-column">
+                                <div class="pie"
+                                    data-pie='{ "strokeBottom": 5, "percent": 80, "colorSlice": "#bbae8f", "colorCircle": "", "round": true, "size":100 }'>
+                                </div>
+                                <label class="fw-bold mt-n5" style="color: #bbae8f;">SSMS</label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6
+                             d-flex justify-content-center align-items-center flex-column">
+                                <div class="pie"
+                                    data-pie='{ "strokeBottom": 5, "percent": 85, "colorSlice": "#bbae8f", "colorCircle": "", "round": true,"size":100 }'>
+                                </div>
+                                <label class="fw-bold mt-n5" style="color: #bbae8f;">GitHub</label>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-6
+                             d-flex justify-content-center align-items-center flex-column">
+                                <div class="pie"
+                                    data-pie='{ "strokeBottom": 5, "percent": 75, "colorSlice": "#bbae8f", "colorCircle": "", "round": true,"size":100 }'>
+                                </div>
+                                <label class="fw-bold mt-n5" style="color: #bbae8f;">Postman</label>
                             </div>
                         </div>
-                        <div class="col-12 mt-4">
-                            <label class="fw-bold" style="color: #bbae8f;">CSS</label>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
-                                    aria-valuemin="0" aria-valuemax="100">75%</div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <label class="fw-bold" style="color: #bbae8f;">JavaScript</label>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                    aria-valuemin="0" aria-valuemax="100">80%</div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <label class="fw-bold" style="color: #bbae8f;">Jquery</label>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
-                                    aria-valuemin="0" aria-valuemax="100">70%</div>
-                            </div>
-                        </div>
-
                     </div>
-
                 </div>
             </div>
 
@@ -492,17 +629,6 @@
                     <i class="bi bi-envelope fs-2 text-center"></i>
                     <h4 class="text-center text-uppercase mt-2">Email</h4>
                     <p class="text-center">solankidharmik4821&#64;gmail.com</p>
-                    <!-- <ul class="con-info mt-4 px-md-0 px-2">
-                        <li class="d-flex mt-3"><span><i class="bi bi-envelope fs-3"></i></span>
-                            <span class="d-flex align-items-center">solankidharmik4821&#64;gmail.com</span>
-                        </li>
-                        <li class="d-flex mt-3"><span><i class="bi bi-telephone fs-3"></i> </span>
-                            <span class="d-flex align-items-center">+91 8780343464</span>
-                        </li>
-                        <li class="d-flex mt-3"><span><i class="bi bi-geo-alt fs-3"></i></span>
-                            <span class="d-flex align-items-center">Gandhinagar, Gujrat</span>
-                        </li>
-                    </ul> -->
                 </div>
                 <div class="col-md-4 text-white d-flex justify-content-center flex-column">
                     <i class="bi bi-telephone fs-2 text-center"></i>
@@ -514,37 +640,6 @@
                     <h4 class="text-center text-uppercase mt-2">Address</h4>
                     <p class="text-center">Gandhinagar, Gujrat</p>
                 </div>
-                <!-- 
-                <div class="col-md-6 mt-5 mt-md-0">
-
-                    <form class="mt-3" onsubmit="send()">
-                        <div class="row mb-3">
-                            <div class="form-floating col-6">
-                                <input type="text" class="form-control" id="fname">
-                                <label class="ms-3 lb">First Name</label>
-                            </div>
-                            <div class="form-floating col-6">
-                                <input type="text" class="form-control" id="lname">
-                                <label class="ms-3 lb">Last Name</label>
-                            </div>
-                        </div>
-
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="mail">
-                            <label class="lb">Email</label>
-                        </div>
-                        <div class="form-floating">
-                            <textarea class="form-control" id="msg"></textarea>
-                            <label class="lb">Comments</label>
-                        </div>
-
-                        <div class="text-center">
-                            <button type="submit"
-                                class="btn btn-lg btn-outline-primary text-center mt-3">Submit</button>
-                        </div>
-                    </form>
-                </div> -->
-
             </div>
         </div>
 

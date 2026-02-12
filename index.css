@@ -78,6 +78,30 @@ body {
   fill: var(--color-primary);
 }
 
+.pie-text-5 {
+  fill: var(--color-primary);
+}
+
+.pie-text-6 {
+  fill: var(--color-primary);
+}
+
+.pie-text-7 {
+  fill: var(--color-primary);
+}
+
+.pie-text-8 {
+  fill: var(--color-primary);
+}
+
+.pie-text-9 {
+  fill: var(--color-primary);
+}
+
+.pie-text-10 {
+  fill: var(--color-primary);
+}
+
 .progress {
   background-color: #e9ecef;
 }

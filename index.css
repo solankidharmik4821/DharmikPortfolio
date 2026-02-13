@@ -226,84 +226,6 @@ body {
 
 /* #endregion swiper */
 
-/* #region about-info */
-ul.about-info {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-ul.about-info li {
-  list-style: none;
-  margin-bottom: 10px;
-}
-
-ul.about-info li span:first-child {
-  font-weight: 600;
-  color: var(--color-white);
-  width: 130px;
-}
-
-ul.about-info li span {
-  width: calc(100% - 130px);
-  font-weight: 700;
-  color: var(--color-primary1);
-  word-wrap: break-word;
-}
-
-/* #endregion about-info */
-
-/* #region con-info */
-ul.con-info li span:first-child {
-  font-weight: 600;
-  color: var(--color-white);
-  width: 100px;
-}
-
-ul.con-info li span:first-child img {
-  width: 45px;
-  height: 45px;
-}
-
-ul.con-info li span {
-  width: calc(100% - 130px);
-  font-weight: 600;
-  color: var(--color-primary1);
-}
-
-/* #endregion con-info */
-
-.form-control {
-  background-color: transparent;
-  border-color: var(--color-primary1);
-  color: var(--color-primary1);
-}
-
-.lb {
-  background-color: transparent;
-}
-
-.form-floating>.form-control-plaintext~label,
-.form-floating>.form-control:focus~label,
-.form-floating>.form-control:not(:placeholder-shown)~label,
-.form-floating>.form-select~label {
-  color: var(--color-primary1);
-}
-
-.form-floating>.form-control-plaintext~label::after,
-.form-floating>.form-control:focus~label::after,
-.form-floating>.form-control:not(:placeholder-shown)~label::after,
-.form-floating>.form-select~label::after {
-  background-color: transparent;
-}
-
-.form-control:focus {
-  background-color: transparent;
-  border-color: var(--color-primary1);
-  box-shadow: none;
-  color: var(--color-primary1);
-}
 
 .text-primary {
   color: var(--color-primary) !important;
@@ -323,6 +245,7 @@ ul.con-info li span {
   position: absolute !important;
 }
 
+/* About me oaragraph */
 
 .text-para {
   text-align: justify;
@@ -335,6 +258,10 @@ ul.con-info li span {
     text-indent: 60px;
   }
 }
+
+/* End region */
+
+/* Whatsapp button */
 
 .whatsapp-btn {
   position: fixed;
@@ -351,3 +278,23 @@ ul.con-info li span {
   box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
   transition: all 0.3s ease;
 }
+
+/* End region */
+
+/* region tab nav-pills */
+
+#skillTabs .nav-link {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+#skillTabs .nav-link.active {
+  background: #bbae8f !important;
+  color: #fff;
+  border-radius: 30px;
+}
+
+/* End region */
